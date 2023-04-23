@@ -26,4 +26,5 @@
     "request": "^2.88.2",
     "terser": "^5.14.2"
   }
+  "packageManager": "yarn@3.5.0"
 }
