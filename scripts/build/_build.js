@@ -13,7 +13,7 @@ import formatCardObjects from './lib/magic/cards.js';
 // Archetypes data
 import getBadaroArchetypes from './lib/archetypes/badaro/mtgoformatdata.js';
 
-import getCurrentRevision from './expiry.js';
+import getCurrentRevision from './lib/expiry.js';
 
 
 import { writeCollection } from '../../src/utils/internal/lz4/filesystem.js';
