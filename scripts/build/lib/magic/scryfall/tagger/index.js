@@ -1,7 +1,6 @@
 import chalk from 'chalk';
 
-// import { setDelay } from '@videre/database';
-import { setDelay, dynamicSortMultiple } from '../../../../../../src/utils/database.js';
+import { setDelay, dynamicSortMultiple } from '@videre/database';
 
 import { SearchTags, FetchTag } from './graphql/queries.js';
 

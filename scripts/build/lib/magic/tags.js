@@ -1,4 +1,4 @@
-import { dynamicSortMultiple } from '../../../../../../src/utils/database.js';
+import { dynamicSortMultiple } from '@videre/database';
 
 
 export function formatTaggerObjects(card_catalog, tags_list) {

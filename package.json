@@ -5,6 +5,7 @@
     "build-artifacts": "node ./scripts/vercel/run-build.js"
   },
   "dependencies": {
+    "@videre/database": "*",
     "chalk": "^5.0.1",
     "dotenv": "^16.0.1",
     "jsdom": "^20.0.0",
@@ -25,6 +26,9 @@
     "puppeteer-extra-plugin-stealth": "^2.7.8",
     "request": "^2.88.2",
     "terser": "^5.14.2"
-  }
+  },
+  "resolutions": {
+    "@videre/database": "videre-project/videre-project#workspace=@videre/database"
+  },
   "packageManager": "yarn@3.5.0"
 }

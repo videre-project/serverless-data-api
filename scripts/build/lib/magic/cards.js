@@ -1,5 +1,4 @@
-// import { pruneObjectKeys } from '@videre/database';
-import { pruneObjectKeys } from '../../../../src/utils/database.js';
+import { pruneObjectKeys } from '@videre/database';
 
 import { ignoredSetTypes } from './scryfall/constants.js';
 
